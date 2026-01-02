@@ -1,5 +1,7 @@
 //Lesson on Functions - Return Statement
 //This function takes two numbers as input and returns their sum
+//What are functions?
+// Functions are blocks of code that perform specific tasks and can be reused multiple times in a program.
 function returnSumOfTwoNumbers(number1, number2) {
     let sum = number1 + number2;
     return sum;
