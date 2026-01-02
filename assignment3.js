@@ -82,3 +82,24 @@ itemSoldOn = 995536754321;
 let soldDate = new Date(itemSoldOn);
 console.log("Item sold on:", soldDate.toLocaleString());
 // --- End of Date Logging --- //
+
+let date_1 = new Date("2020-01-01");
+let date_2 = new Date("2019-01-01");
+
+let timeStamp1 = date_1.getTime();
+let timeStamp2 = date_2.getTime();
+
+let difference = timeStamp1 - timeStamp2;
+
+let seconds = difference / 1000;
+let minutes = seconds / 60;
+let hours = minutes / 60;
+let days = hours / 24;
+let weeks = days / 7;
+
+console.log(seconds);
+console.log(minutes);
+console.log(hours);
+console.log(days);
+console.log(weeks);
+
